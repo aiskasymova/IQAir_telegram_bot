@@ -8,10 +8,6 @@ def aqi_api(city_name, user_id):
     keyboard = buttons_after_req()
     url_api = return_url_api(city_name)
     try:
-        # params = {Globals.api_id: api_key, Globals.city_name_api: city_name,
-        # Globals.units_settings: Globals.units_measuring,
-        # Globals.language: Globals.rus_language}
-
         response = requests.get(url_api)
         pollution = response.json()
 
