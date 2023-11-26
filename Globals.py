@@ -41,16 +41,16 @@ class Globals(object):
 
 
 # --------------bot-------------
-TOKEN = "6883698789:AAFzMoCtoz9mzqIEsxwE0UCB0zjLbTfhTd0"
+TOKEN = "YOUR TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
 # --------------API-------------
-api_key = "6fa335db-cdc5-4f5e-9ebe-0cf86f1366ed"
+api_key = "YOUR KEY
 
 # --------------url----------
-url_iqair_bishkek = "http://api.airvisual.com/v2/city?city=Bishkek&state=Bishkek&country=Kyrgyzstan&key=6fa335db-cdc5-4f5e-9ebe-0cf86f1366ed"
-url_iqair_moscow = "http://api.airvisual.com/v2/city?city=Moscow&state=Moscow&country=Russia&key=6fa335db-cdc5-4f5e-9ebe-0cf86f1366ed"
-url_iqair_tallinn = "http://api.airvisual.com/v2/city?city=Tallinn&state=Harjumaa&country=Estonia&key=6fa335db-cdc5-4f5e-9ebe-0cf86f1366ed"
+url_iqair_bishkek = "http://api.airvisual.com/v2/city?city=Bishkek&state=Bishkek&country=Kyrgyzstan&key=---------"
+url_iqair_moscow = "http://api.airvisual.com/v2/city?city=Moscow&state=Moscow&country=Russia&key=--------"
+url_iqair_tallinn = "http://api.airvisual.com/v2/city?city=Tallinn&state=Harjumaa&country=Estonia&key=--------"
 
 # ---------------Database-----------
 db = PostgresDb()
