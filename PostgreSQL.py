@@ -6,11 +6,11 @@ class PostgresDb:
 
     def __init__(self):
 
-        self.connection = psycopg2.connect(user="aisula",
-                                           password="myPassword",
+        self.connection = psycopg2.connect(user="---",
+                                           password="-----",
                                            host="localhost",
                                            port="5432",
-                                           database="mydbase")
+                                           database="-----")
         self.cursor = self.connection.cursor()
         self.table = '''CREATE TABLE IF NOT EXISTS subscriptions(ID INT PRIMARY KEY NOT NULL, USER_ID INT NOT NULL,STATUS BOOL, CITY VARCHAR(128) NOT NULL); '''
 
