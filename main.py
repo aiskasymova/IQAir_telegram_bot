@@ -1,7 +1,7 @@
 import schedule
 from threading import Thread
 
-from api_request import aqi_api
+from request_api import aqi_api
 from Functions import buttons_in_default_menu, button_in_mailing, \
     buttons_choose_city, button_in_subscribe, \
     schedule_checker, \
